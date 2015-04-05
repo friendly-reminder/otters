@@ -28,7 +28,7 @@ for(i in 1L:k){
   main <- names(freq.dist.lst)[i]
   t1 <- prop.table(freq.dist.lst[[i]])
   subs <- cumsum(t1)<.9999
-  plot(as.table(t1[subs]),ylab='',main=paste('Distribution of ',main,sep=''))  
+  plot(as.table(t1[subs]),ylab='',main=paste('Distribution of ',main,sep=''))
 }
 
 dev.off()
