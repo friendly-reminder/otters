@@ -3,6 +3,8 @@
 ##################
 setwd('C:/Users/Jaime/Desktop/Kaggle/Otto Group Prduct Classifcation Challenge')
 
+# cool!
+
 ###################
 ##Get train dataset
 ###################
