@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import pandas as pd
+from sklearn.naive_bayes import MultinomialNB
 
 
 train = pd.read_csv('../data/train.csv')
